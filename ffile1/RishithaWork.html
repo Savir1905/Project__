@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="D:\ffile1\RishithaWork.css">
+    <title>Classroom Availability Checker</title>
+</head>
+<body>
+    <div class="navbar">
+        <nav>
+            <a class="code">EAMCET CODE:CVSR</a>
+            <a href="https://anurag.edu.in/contacts/" target="_blank" class="contact">Contact us</a>
+            <a class="img-insta" href="https://www.instagram.com/anuraguniversity/">
+                <img class="img-reference" src="instagram.png" alt="insta-logo" height="26" width="30">
+            </a>
+            <a class="img-yt" href="https://www.youtube.com/channel/UCi4Wu4jP2L4edVMDsmKE2yw">
+                <img src="youtube.png" alt="yt-logo" height="32" width="30">
+            </a>
+        </nav>
+    </div>
+    <div class="Background-Filler">
+        <div>
+            <img src="Anurag-University-1.jpg" alt="Logo" height="100" width="200">
+        </div>
+        <div class="Fluid-Container">
+            <h1>Classroom Availability Checker</h1>
+            <div class="detail-form">
+                <label for="block">Select Block:</label>
+                <select id="block">
+                    <option value="A">Block A</option>
+                    <option value="B">Block B</option>
+                    <option value="C">Block C</option>
+                    <option value="D">Block D</option>
+                    <option value="E">Block E</option>
+                    <option value="F">Block F</option>
+                    <option value="G">Block G</option>
+                  <option value="H">Block H</option>
+                </select>
+
+                <label for="hours">Select Hours Required:</label>
+                <input type="number" id="hours" min="1" placeholder="Enter hours">
+
+                <div><button onclick="checkAvailability()">Check Availability</button></div>
+
+                <div id="result"></div>
+                <script src='D:\ffile1\RishithaWork.js'></script>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+.img-insta{
+    margin-top: 2px;
+    margin-bottom: -20px;
+    float: right;
+    margin-right: -150px;
+
+}
+.img-yt{
+    margin-top: 0;
+    margin-bottom: -20px;
+    float: right;
+    margin-right: -190px;
+
+}
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: -100px;
+    margin-left: 370px;
+}
+
+.login-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: left;
+    margin: 0;
+}
+.Background-Filler{
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.navbar{
+    height: 32px;
+    background-color: #C02633;
+}
+.code{
+    background-color: #273656;
+    width:10px;
+    padding:10px;
+    color: white;
+    justify-content: right;
+    margin-top: 15px;
+    margin-bottom: -3px;
+    border-radius: 3px;
+    margin-left: 750px;
+    
+}
+.contact{
+    color:white;
+    float: right;
+    padding: 10px;
+    margin-right: 260px;
+}
+
+button:hover{
+    background-color: #013220;
+    transition: 150ms;
+    scale: 1.05;
+
+}
+
+.right-align{
+    float: right;
+    margin-top: 10px;
+}
